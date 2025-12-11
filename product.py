@@ -8,7 +8,7 @@ def product_details(product_id, name, quantity, price):
     return result
 
 
-if name == "main":
+if __name__ == "__main__":
     product_id = "P101"
     name = "Laptop"
     quantity = 5
